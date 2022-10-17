@@ -1,0 +1,36 @@
+Simple Social Media review site
+	yxu168@bu.edu
+
+MVP (Minimum Valuable Product)
+	Search recent tweets by keywords or hashtags
+	Analyze tweets’ sentiment execution using Google NLP
+
+User Stories
+Student
+	As a student, he/she wants to search the recent remarks of a specific profesor or school.
+Faulty
+	As a faculty member, he/she wants to search the recent remarks of the working environment of various schools to find a job at a suitable place.	
+Professor
+	As a faculty member, he/she wants to search the recent remarks of the academic environment of his/her school or the latest news in his/her academic research.
+
+Modular design
+Twitter API
+	Search tweets by keywords or hashtag
+	Send the tweets to Google NLP api
+Google API
+	Sentiment analysis of every tweets 
+Data processing
+	Present the sentiment analysis result in a file in the form of chat
+	Calculate necessary data such as average sentiment score
+
+Target User
+	People who want to get recent others’ feelings 
+
+Basic User Stories.
+	They want to know others’ mood swings to have a better understanding of the topic they are interested in
+
+Installation
+	Twitter api and google nlp api installation can be seen as README.pdf in folders twitter_api_test and google_nlp_test  
+	
+Test 
+	Test the most recent 30 tweets of Boston University and analyze sentiment. Result is shown in result.txt
